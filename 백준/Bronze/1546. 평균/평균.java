@@ -27,7 +27,5 @@ public class Main {
 			sum+=(realnum2[i]/max)*100;	}
 		
 		System.out.println(sum/subcnt);
-		
-	}
-
+    }
 }
