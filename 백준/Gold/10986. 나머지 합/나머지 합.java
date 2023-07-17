@@ -1,6 +1,6 @@
 
 
-import java.util.*;
+import java.util.StringTokenizer;
 import java.io.*;
 public class Main {
 
@@ -25,16 +25,7 @@ public class Main {
 				cnt++; //나머지가 0인 원소를 정답개수에 더함
 			}
 		}
-//		System.out.println("narr");
-//		for(int i:Narr) {
-//			System.out.print(i+",");
-//		}
-//		
-//		System.out.println();
-//		System.out.println("c");
-//		for(int i:c) {
-//			System.out.print(i+",");
-//		}
+
 		//c 배열에서 나머지가 같은 인덱스끼리의 조합 경우의 수 계산 nCm
 		for(int i=0; i<m; i++) {
 			if(c[i]>1) {
